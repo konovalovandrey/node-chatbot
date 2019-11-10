@@ -1,8 +1,10 @@
 version: '2'
 services:
 
-    node-chatbot:
-        image: node-chatbot
-        container_name: node-chatbot
-        ports:
-            - 3001:3000
+  node-chatbot:
+    image: node-chatbot
+    container_name: node-chatbot
+    env_file:
+      - .env
+    ports:
+      - 3001:3000
