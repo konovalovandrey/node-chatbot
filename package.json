@@ -1,0 +1,28 @@
+{
+  "name": "botkit-starter-web",
+  "version": "0.0.2",
+  "description": "A starter kit for building a custom bot for your website with Botkit Studio",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "botkit": "^4.6.1",
+    "botkit-storage-mongo": "^1.0.7",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "express-hbs": "^2.2.0",
+    "mongoose": "^5.7.9",
+    "node-env-file": "^0.1.8",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "bots",
+    "chatbots",
+    "web chat"
+  ],
+  "author": "aa"
+}
