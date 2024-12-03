@@ -17,7 +17,7 @@
     "node-env-file": "^0.1.8",
     "querystring": "^0.2.0",
     "request": "^2.88.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bson": "^4.0.2"
   },
   "devDependencies": {},
